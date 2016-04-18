@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-    font-family: "Lobster",sans-serif;
+    font-family: sans-serif;
     font-size: 42px;
     font-weight: 900;
     letter-spacing: 0.48px;
@@ -35,7 +35,67 @@ a:hover {
     color: #f8eaa9;
 }
 
+.socialbutton {
+    margin-right:10px;
+    padding:0;
+    display:inline-block;
+    width:30px;
+    height:30px;
+}
+
+#socialbutton_mailto {
+    background:url('images/icons.png') no-repeat 0 0;
+}
+#socialbutton_mailto:hover {
+    background-position:-31px 0;
+}
+
+#socialbutton_facebook {
+    background:url('images/icons.png') no-repeat 0 -31px;
+}
+#socialbutton_facebook:hover {
+    background-position:-31px -31px;
+}
+
+#socialbutton_twitter {
+    background:url('images/icons.png') no-repeat 0 -62px;
+}
+#socialbutton_twitter:hover {
+    background-position:-31px -62px;
+}
+
+#socialbutton_youtube {
+    background:url('images/icons.png') no-repeat 0 -93px;
+}
+#socialbutton_youtube:hover {
+    background-position:-31px -93px;
+}
+
+#socialbutton_instagram {
+    background:url('images/icons.png') no-repeat 0 -124px;
+}
+#socialbutton_instagram:hover {
+    background-position:-31px -124px;
+}
+
 #container {
+    width: 50em;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 2.5em;
+    box-sizing: content-box;
+    clear: both;
+}
+
+#header {
+    width: 50em;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 1em 2.5em;
+    box-sizing: content-box;
+}
+
+#footer {
     width: 50em;
     margin: 0 auto;
     max-width: 1100px;
@@ -43,9 +103,18 @@ a:hover {
     box-sizing: content-box;
 }
 
+#social {
+    float:left;
+}
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4em;
+}
+
+#copyright {
+    text-align:center;
+    color:#cccccc;
+    font-size:11px;
 }
